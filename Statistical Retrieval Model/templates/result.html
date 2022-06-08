@@ -1,0 +1,29 @@
+<h2>Result</h2>
+{% for key,value in data.items() %}   
+
+<html>
+<head>
+<style>
+table, th, td {
+    
+  border: 2px solid rgb(7, 93, 150);
+}
+</style>
+</head>
+<body style="background-color:rgb(245, 244, 244);"></bodystyle>>
+
+<table style="width:50%">
+
+  <tr>
+    <td>score</td> 
+    <td>files</td>
+  </tr>
+ 
+  <tr>
+    <td>{{value}}</td>
+    <td> {{key}}</td> 
+  </tr>
+</table>
+</body>
+</html>
+{% endfor %}
